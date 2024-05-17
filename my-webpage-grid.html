@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-webpage-grid</title>
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #E7C6FF;
+        }
+
+        .table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: lightgray;
+        }
+
+        li {
+            font-size: 15px;
+        }
+
+        /* .hist-places img {
+            margin: 10px;
+            padding: 10px;
+        } */
+
+        @media (max-width: 960px) {
+            .mid-img {
+                float: right !important;
+                /* order: 0 !important; */
+            }
+        }
+
+        .col-6-sm img {
+            border: 1px solid #333447;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <h1>Grace Omowunmi Adelowotan <i class="fas fa-camera"></i></h1>
+            </div>
+            <div class="col-4"><img src="myimage.png" alt="Grace" width="360" height="350"></div>
+        </div>
+
+
+
+        <h2>Which city? <i class="fas fa-city"></i></h2>
+        <div class="row">
+            <div class="col-6">
+                <img src="Busan.png" alt=Busan width="400">
+            </div>
+            <div class="col-6">I would like to visit Busan city in South Korea because the Korean culture is of
+                interest to
+                me.
+                Having actively participated in Korean culture initiatives since I was a teenager, it has been my
+                dream
+                to visit many parts of South Korea but especially
+                Busan, which is renowned for its stunning beaches and natural landscapes. It is also rich in history
+                and
+                culture, and hosts a variety of festivals and events throughout the year, ranging from film to
+                music. I
+                wish to
+                visit with my best friend to enjoy the delicious cuisine, culture, and fun activities that the city
+                has
+                to
+                offer.
+            </div>
+        </div>
+
+        <h2>A foreign language <i class="fas fa-language"></i></h2>
+        <div class="row">
+            I would like to learn to speak Korean at a native level because I enjoy Korean media content and would like
+            to
+            be able to read, understand and speak the language fluently.
+        </div>
+        <table border="1" class="table">
+            <tr>
+                <th>Korean</th>
+                <th>English</th>
+            </tr>
+            <tr>
+                <td>Annyeonghaseyo! (안녕하세요!)</td>
+                <td>Hello!</td>
+            </tr>
+            <tr>
+                <td>Kamsahamnida. (감사합니다.)</td>
+                <td>Thank you.</td>
+            </tr>
+            <tr>
+                <td>Jeogiyo! (저기요!)</td>
+                <td>Excuse me!</td>
+            </tr>
+            <tr>
+                <td>Saranghaeyo. (사랑해요.)</td>
+                <td>I love you.</td>
+            </tr>
+        </table>
+
+        <h2>Favourite subjects <i class="fas fa-book-open"></i></h2>
+        I completed a BSc. Biological Sciences and Genetics qualification at the University of KwaZulu-Natal(UKZN). My
+        favourite subjects were:
+        <div class="row">
+            <div class="col-4">
+                <h4>Molecular Diagnostics.</h4>
+                <img src="MolDiag.jpg" width="200" height="120" style="border: 1px solid #333447;">
+            </div>
+            <div class="col-4">
+                <h4>Applied Biotechnology.</h4>
+                <img src="AppliedBiotechnology.jpg" width="200" height="120" style="border: 1px solid #333447;">
+            </div>
+            <div class="col-4">
+                <h4>Evolution & Systematics.</h4>
+                <img src="EvolnSys.jpg" width="200" height="120" style="border: 1px solid #333447;">
+            </div>
+
+        </div>
+
+        <div class="hist-places">
+            <h2>Historical places in my city <i class="fas fa-landmark"></i></h2>
+            <div class="row">
+                <div class="col-4">
+                    <h4>1. Constitution Hill</h4>
+
+                    <div class="row">
+                        <div class="col-6-sm">
+                            <ul>
+                                <li>No, it is not an actual hill as the name would imply.</li>
+                                <li>It used to be a prison where many political activists were held.</li>
+                                <li> It is now known as the Constitutional Court.</li>
+                            </ul>
+                        </div>
+                        <div class="col-6-sm ">
+                            <img src="ConstHill.png" width="150" height="100">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <h4>2. Mandela House</h4>
+
+                    <div class="row">
+                        <div class="col-6-sm mid-img">
+                            <ul>
+                                <li>It was Nelson Mandela's first house where he lived with his first then
+                                    second
+                                    wife
+                                    before he
+                                    was
+                                    imprisoned.</li>
+                                <li>It is now a museum where visitors can get a more personal look into the life
+                                    of
+                                    Mandela and his
+                                    family during their time there.</li>
+                                <li>It is located in Soweto, which is historically
+                                    significant in the resistance
+                                    against racial segregation and discrimination.</li>
+                            </ul>
+                        </div>
+                        <div class="col-6-sm">
+                            <img src="MandelaHouse.png" width="150" height="100">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <h4>3. Apartheid Museum</h4>
+
+                    <div class="row">
+                        <div class="col-6-sm">
+                            <ul>
+                                <li>The museum offers interactive exhibits that allows visitors to engage more
+                                    interactively
+                                    with the
+                                    history of
+                                    apartheid.</li>
+                                <li>The exhibits take vistors on a chronological journey through South Africa's
+                                    history.
+                                </li>
+                                <li>They feature stories of activists, political leaders, and even ordinary citizens
+                                    who
+                                    challenged
+                                    apartheid and advocated for equality.</li>
+                            </ul>
+                        </div>
+                        <div class="col-6-sm">
+                            <img src="ApartheidMuseum.png" width="150" height="100">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
